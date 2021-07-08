@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="API Framework" >
+    <test name="api test" >
+        <classes>
+            <class name="runner.Runner" />
+        </classes>
+    </test>
+</suite>

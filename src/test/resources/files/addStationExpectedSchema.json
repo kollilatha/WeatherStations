@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "external_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    },
+    "altitude": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "external_id",
+    "name",
+    "latitude",
+    "longitude",
+    "altitude"
+  ]
+}

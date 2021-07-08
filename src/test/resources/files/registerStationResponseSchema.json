@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "ID": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "external_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    },
+    "altitude": {
+      "type": "integer"
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "source_type": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "ID",
+    "updated_at",
+    "created_at",
+    "user_id",
+    "external_id",
+    "name",
+    "latitude",
+    "longitude",
+    "altitude",
+    "rank",
+    "source_type"
+  ]
+}
